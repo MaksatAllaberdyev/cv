@@ -64,11 +64,11 @@ def create_cv(file_path):
     # Personlig information
     personal_info = Table(
         [[
-            Paragraph("<b>Name:</b> Maksat Allaberdyev", normal_style),
-            Paragraph("<b>Adress:</b> Anna Whitlocks Gata 13, 11366 Stockholm", normal_style)
+            Paragraph("<b>Name:</b> Add information", normal_style),
+            Paragraph("<b>Adress:</b> Add information", normal_style)
         ], [
-            Paragraph("<b>Phone:</b> 076-826 97 94", normal_style),
-            Paragraph("<b>Email:</b> maksatallaberdyev91@gmail.com", normal_style)
+            Paragraph("<b>Phone:</b> Add information", normal_style),
+            Paragraph("<b>Email:</b> Add information", normal_style)
         ]],
         colWidths=[200, 200]
     )
@@ -86,8 +86,8 @@ def create_cv(file_path):
     content.append(education)
 
     education_details = Paragraph(
-        "2017 - 2019: Master of Science in Economics<br/>"
-        "2014 - 2017: Bachelor of Science in Economics<br/>",
+        "Add information<br/>"
+        "Add information<br/>",
         job_title_style
     )
     content.append(education_details)
@@ -97,52 +97,48 @@ def create_cv(file_path):
     experience = Paragraph("<b>Professional experience</b>", header_style)
     content.append(experience)
 
-    riksbank = Paragraph("2023 - Current: Economist/Systems manager, Sveriges Riksbank", job_title_style)
-    riksbank_details = Paragraph(
-        "Responsible for collecting and publishing the reference rate Swestr and International Banking Statistics for BIS. "
-        "I have automated and streamlined data and models in monetary policy forecasting.",
-        normal_style
+    job1 = Paragraph("2023 - Current: Add information", job_title_style)
+    job1_details = Paragraph(
+       Add information
     )
-    content.append(riksbank)
-    content.append(riksbank_details)
+    content.append(job1)
+    content.append(job1_details)
     content.append(Spacer(1, 10))
 
-    scb = Paragraph("2021 - 2023: Economist, Statistics Sweden", job_title_style)
-    scb_details = Paragraph(
-        "Collected data from MFIs to produce Financial Market Statistics. "
-        "Product owner and project manager implementing new ECB regulations.",
+    job2 = Paragraph("2021 - 2023: Add information", job_title_style)
+    job2_details = Paragraph(
+        Add information
         normal_style
     )
-    content.append(scb)
-    content.append(scb_details)
+    content.append(job2)
+    content.append(job2_details)
     content.append(Spacer(1, 10))
     
-    ski = Paragraph("2019 - 2021: Analyst, Svenskt Kvalitetsindex/EPSI Rating", job_title_style)
-    ski_details = Paragraph(
-        "Worked as an analyst, project manager and consultant in "
-        "branches such as banking, insurance and public sector.",
+    job3 = Paragraph("2019 - 2021: Add information", job_title_style)
+    job3_details = Paragraph(
+        Add information
         normal_style
     )
-    content.append(ski)
-    content.append(ski_details)
+    content.append(job3)
+    content.append(job3_details)
     content.append(Spacer(1, 10))
     
-    umu = Paragraph("2018 - 2019: Teaching assistant, Umeå Universitet", job_title_style)
-    umu_details = Paragraph(
-        "Teaching assistant and lecturer in Macroeconomics at the beginner level.",
+    job4 = Paragraph("2018 - 2019: Add information", job_title_style)
+    job4_details = Paragraph(
+        Add information
         normal_style
     )
-    content.append(umu)
-    content.append(umu_details)
+    content.append(job4)
+    content.append(job4_details)
     content.append(Spacer(1, 10))
     
-    lf = Paragraph("2017 - 2019: Bank clerk, Länsförsäkringar Västerbotten", job_title_style)
-    lf_details = Paragraph(
-        "Bank clerk with experience in Backoffice and AML.",
+    job5 = Paragraph("2017 - 2019: Add information", job_title_style)
+    job5_details = Paragraph(
+        Add information
         normal_style
     )
-    content.append(lf)
-    content.append(lf_details)
+    content.append(job5)
+    content.append(job5_details)
     content.append(Spacer(1, 10))
     
     # Färdigheter
@@ -162,5 +158,5 @@ def create_cv(file_path):
     # Bygg dokumentet
     doc.build(content)
 
-# Skapa ett stylat CV med bild och spara det som en PDF-fil
-create_cv("CV_Maksat Allaberdyev.pdf")
+# Skapa CV och spara det som en PDF-fil
+create_cv("Add information.pdf")
